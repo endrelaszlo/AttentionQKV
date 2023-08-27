@@ -1,0 +1,16 @@
+name: attn
+channels:
+#  - defaults
+  - pytorch
+#  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch>=2.0.0
+  - jupyter
+  - matplotlib
+  - pandas
+  - tqdm
+  - pip
+  - pip:
+    - wandb
+#    - Pillow
